@@ -1,2 +1,9 @@
 # Clash
-自用Clash配置
+Google-（含google，YouTube，YouTube music,Gemini)------修改时间：2025.2.16
+
+Ai含Open Ai，Copilot（与微软同一策略），Claude，JetBrains AI，Perplexity， Mistral AI。不含Gemini。
+
+Tiktok--2024-08-05 02:10:46版本
+
+ziyong--含X(原twitter)，ins，Facebook，therads，（含Meta ai）twitch，reddit。
+
