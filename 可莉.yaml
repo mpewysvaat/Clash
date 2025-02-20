@@ -158,6 +158,13 @@ proxy-groups:
 
 # 订阅规则
 rule-providers:
+  adrules:
+    behavior: "classical"
+    type: http
+    url: "https://adrules.top/adrules.list"
+    format: 'text'
+    interval: 604800
+    
   LAN:
     <<: *RuleProviders
     path: './rules/Lan.yaml'
@@ -260,6 +267,7 @@ rule-providers:
 
 # 规则指向
 rules:
+  - RULE-SET,adrules,REJECT
   - RULE-SET, LAN, DIRECT
   - RULE-SET, Direct, DIRECT
   - RULE-SET, Proxy, 兜底策略
