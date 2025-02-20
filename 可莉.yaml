@@ -175,11 +175,6 @@ rule-providers:
     path: './rules/Direct.yaml'
     url: 'https://kelee.one/Tool/Clash/Rule/Direct.yaml'
 
-  ChinaDownloadCDN:
-    <<: *RuleProviders
-    path: './rules/ChinaDownloadCDN.yaml'
-    url: 'https://kelee.one/Tool/Clash/Rule/ChinaDownloadCDN.yaml'
-
   InternationalDownloadCDN:
     <<: *RuleProviders
     path: './rules/InternationalDownloadCDN.yaml'
@@ -260,7 +255,6 @@ rules:
   - RULE-SET,adrules,REJECT
   - RULE-SET, LAN, DIRECT
   - RULE-SET, Direct, DIRECT
-  - RULE-SET, ChinaDownloadCDN, DIRECT
   - RULE-SET, Steam, 游戏选择
   - RULE-SET, Game, 游戏选择
   - RULE-SET, ziyong, ziyong
