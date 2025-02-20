@@ -175,11 +175,6 @@ rule-providers:
     path: './rules/Direct.yaml'
     url: 'https://kelee.one/Tool/Clash/Rule/Direct.yaml'
 
-  Proxy:
-    <<: *RuleProviders
-    path: './rules/Proxy.yaml'
-    url: 'https://kelee.one/Tool/Clash/Rule/Proxy.yaml'
-
   ChinaDownloadCDN:
     <<: *RuleProviders
     path: './rules/ChinaDownloadCDN.yaml'
@@ -260,17 +255,11 @@ rule-providers:
     path: './rules/Telegram.yaml'
     url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/Telegram.yaml'
 
-  ESET_China:
-    <<: *RuleProviders
-    path: './rules/ESET_China.yaml'
-    url: 'https://kelee.one/Tool/Clash/Rule/ESET_China.yaml'
-
 # 规则指向
 rules:
   - RULE-SET,adrules,REJECT
   - RULE-SET, LAN, DIRECT
   - RULE-SET, Direct, DIRECT
-  - RULE-SET, Proxy, 兜底策略
   - RULE-SET, ChinaDownloadCDN, DIRECT
   - RULE-SET, Steam, 游戏选择
   - RULE-SET, Game, 游戏选择
@@ -287,6 +276,5 @@ rules:
   - RULE-SET, AppleID, Apple账户
   - RULE-SET, AppStore, App Store
   - RULE-SET, Microsoft, AI
-  - RULE-SET, ESET_China, DIRECT
   - GEOIP, CN, DIRECT
   - MATCH, 兜底策略
