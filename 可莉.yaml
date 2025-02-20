@@ -203,7 +203,7 @@ rule-providers:
   Steam:
     <<: *RuleProviders
     path: './rules/Steam.yaml'
-    url: 'https://rule.kelee.one/Clash/Steam.yaml'
+    url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/steam.yaml'
 
   Netflix:
     <<: *RuleProviders
