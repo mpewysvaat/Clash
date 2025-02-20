@@ -272,12 +272,12 @@ rules:
   - RULE-SET, Direct, DIRECT
   - RULE-SET, Proxy, 兜底策略
   - RULE-SET, ChinaDownloadCDN, DIRECT
+  - RULE-SET, Steam, 游戏选择
+  - RULE-SET, Game, 游戏选择
   - RULE-SET, InternationalDownloadCDN, 境外下载
   - RULE-SET, AI, AI
   - RULE-SET, ziyong, ziyong
   - RULE-SET, TikTok, 日本策略
-  - RULE-SET, Steam, 游戏选择
-  - RULE-SET, Game, 游戏选择
   - RULE-SET, Netflix, Netflix
   - RULE-SET, iCloudChina, DIRECT
   - RULE-SET, ApplePushNotificationService, DIRECT
