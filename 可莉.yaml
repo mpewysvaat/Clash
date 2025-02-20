@@ -192,7 +192,7 @@ rule-providers:
 
   spotify:
     <<: *RuleProviders
-    path: './rules/.yaml'spotify
+    path: './rules/spotify.yaml'
     url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/spotify.yaml'
 
   TikTok:
