@@ -190,6 +190,11 @@ rule-providers:
     path: './rules/ziyong.yaml'
     url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/ziyong.yaml'
 
+  spotify:
+    <<: *RuleProviders
+    path: './rules/.yaml'spotify
+    url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/spotify.yaml'
+
   TikTok:
     <<: *RuleProviders
     path: './rules/TikTok.yaml'
@@ -255,8 +260,9 @@ rules:
   - RULE-SET,adrules,REJECT
   - RULE-SET, LAN, DIRECT
   - RULE-SET, Direct, DIRECT
-  - RULE-SET, Steam, 游戏选择
   - RULE-SET, Game, 游戏选择
+  - RULE-SET, Steam, 游戏选择
+  - RULE-SET, spotify, 新国策略
   - RULE-SET, ziyong, ziyong
   - RULE-SET, TikTok, 日本策略
   - RULE-SET, Google, Google
