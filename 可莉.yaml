@@ -274,10 +274,12 @@ rules:
   - RULE-SET, ChinaDownloadCDN, DIRECT
   - RULE-SET, Steam, 游戏选择
   - RULE-SET, Game, 游戏选择
-  - RULE-SET, InternationalDownloadCDN, 境外下载
-  - RULE-SET, AI, AI
   - RULE-SET, ziyong, ziyong
   - RULE-SET, TikTok, 日本策略
+  - RULE-SET, Google, Google
+  - RULE-SET, Telegram, Telegram
+  - RULE-SET, InternationalDownloadCDN, 境外下载
+  - RULE-SET, AI, AI
   - RULE-SET, Netflix, Netflix
   - RULE-SET, iCloudChina, DIRECT
   - RULE-SET, ApplePushNotificationService, DIRECT
@@ -285,8 +287,6 @@ rules:
   - RULE-SET, AppleID, Apple账户
   - RULE-SET, AppStore, App Store
   - RULE-SET, Microsoft, AI
-  - RULE-SET, Google, Google
-  - RULE-SET, Telegram, Telegram
   - RULE-SET, ESET_China, DIRECT
   - GEOIP, CN, DIRECT
   - MATCH, 兜底策略
