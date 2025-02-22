@@ -1,5 +1,5 @@
 # mihomo 配置
-# 日期：2025-02-21（Grok 3修复版）
+# 日期：2025-02-22（Grok 3优化方案1）
 # 配置作者：https://t.me/iKeLee（原作者）+ Grok 3
 # 适用版本：所有使用 mihomo 核心的程序
 port: 7890
@@ -28,66 +28,65 @@ external-controller: 0.0.0.0:9090
 # external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
 
 geox-url:
-  mmdb: 'https://geodata.kelee.one/Country-Masaiki.mmdb'
-  asn: 'https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb'
+    mmdb: 'https://geodata.kelee.one/Country-Masaiki.mmdb'
+    asn: 'https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb'
 
 profile:
-  store-selected: true
-  store-fake-ip: true
+    store-selected: true
+    store-fake-ip: true
 
 sniffer:
-  enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: true
-  sniff:
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-    TLS:
-      ports: [443, 8443]
-    QUIC:
-      ports: [443, 8443]
-  force-domain:
-    - +.v2ex.com
-  skip-domain:
-    - Mijia Cloud
+    enable: true
+    force-dns-mapping: true
+    parse-pure-ip: true
+    override-destination: true
+    sniff:
+        HTTP:
+            ports: [80, 8080-8880]
+            override-destination: true
+        TLS:
+            ports: [443, 8443]
+        QUIC:
+            ports: [443, 8443]
+    force-domain:
+        - +.v2ex.com
+    skip-domain:
+        - Mijia Cloud
 
 tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - any:53
-  auto-route: true
-  auto-detect-interface: true
+    enable: true
+    stack: system
+    dns-hijack:
+        - any:53
+    auto-route: true
+    auto-detect-interface: true
 
-# DNS修复：默认nameserver明确，分流稳妥
+# DNS优化：默认nameserver明确，分流稳妥，缩进4空格，保留DoH，确保nameserver-policy为映射
 dns:
-  enable: true
-  listen: 0.0.0.0:1053
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
-  fake-ip-filter:
-    - "*"
-    - +.lan
-  default-nameserver: # 节点域名解析，走国内阿里DNS
-    - 223.5.5.5
-    - 223.6.6.6
-  nameserver: # 默认DNS，必须有值，走国内阿里DoH
-    - https://223.5.5.5/dns-query
-    - https://223.6.6.6/dns-query
-  nameserver-policy: # 分流：国内阿里，国外Cloudflare/Google
-    "geosite:cn": "https://223.5.5.5/dns-query" # 单字符串，防解析错误
-    "geosite:geolocation-!cn": "tls://1.1.1.1:853" # 单字符串，稳妥
-  fallback: # 备用DNS，走国外
-    - tls://1.1.1.1:853
-    - tls://8.8.8.8:853
-  fallback-filter: # 过滤：国内走阿里，其他走fallback
-    geoip-code: ["CN"]
-    domain: ["+.lan"]
+    enable: true
+    listen: 0.0.0.0:1053
+    ipv6: true
+    enhanced-mode: fake-ip
+    fake-ip-range: 28.0.0.1/8
+    fake-ip-filter:
+        - "*"
+        - +.lan
+    default-nameserver: # 节点域名解析，走国内阿里DNS
+        - 223.5.5.5
+        - 223.6.6.6
+    nameserver: # 默认DNS，必须有值，走国内阿里DoH
+        - https://223.5.5.5/dns-query
+        - https://223.6.6.6/dns-query
+    nameserver-policy: # 分流：国内阿里，国外Cloudflare/Google，绝对映射格式，无-
+        geosite:cn: https://223.5.5.5/dns-query # 去掉引号，防解析错误
+        geosite:geolocation-!cn: https://1.1.1.1/dns-query # 去掉引号，稳妥
+    fallback: # 备用DNS，走国外
+        - https://1.1.1.1/dns-query
+        - https://8.8.8.8/dns-query
+    fallback-filter: # 过滤：国内走阿里，其他走fallback
+        geoip-code: ["CN"]
+        domain: ["+.lan"]
 
-# 锚点 - 节点订阅参数
 NodeParam: &NodeParam {type: http, interval: 3600, health-check: {enable: true, url: 'http://www.google.com/blank.html', interval: 6}}
 
 # 节点订阅（替换成你新机场的订阅链接）
