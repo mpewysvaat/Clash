@@ -127,8 +127,7 @@ proxy-groups:
   - {name: ziyong, type: select, proxies: [香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
   - {name: Google, type: select, proxies: [香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
   - {name: Telegram, type: select, proxies: [香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
-  - {name: App Store, type: select, proxies: [DIRECT, 香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
-  - {name: Apple账户, type: select, proxies: [DIRECT, 香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
+  - {name: Apple, type: select, proxies: [DIRECT, 香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
   - {name: Netflix, type: select, proxies: [香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
   - {name: 兜底策略, type: select, proxies: [DIRECT, 香港策略, 台湾策略, 日本策略, 韩国策略, 新国策略, 美国策略]}
 
@@ -222,30 +221,10 @@ rule-providers:
         path: './rules/Netflix.yaml'
         url: 'https://rule.kelee.one/Clash/Netflix.yaml'
 
-    iCloudChina:
+    Apple:
         <<: *RuleProviders
-        path: './rules/iCloudChina.yaml'
-        url: 'https://kelee.one/Tool/Clash/Rule/iCloudChina.yaml'
-
-    ApplePushNotificationService:
-        <<: *RuleProviders
-        path: './rules/ApplePushNotificationService.yaml'
-        url: 'https://kelee.one/Tool/Clash/Rule/ApplePushNotificationService.yaml'
-
-    AppleSoftwareUpdates:
-        <<: *RuleProviders
-        path: './rules/AppleSoftwareUpdates.yaml'
-        url: 'https://kelee.one/Tool/Clash/Rule/AppleSoftwareUpdates.yaml'
-
-    AppleID:
-        <<: *RuleProviders
-        path: './rules/AppleID.yaml'
-        url: 'https://kelee.one/Tool/Clash/Rule/AppleID.yaml'
-
-    AppStore:
-        <<: *RuleProviders
-        path: './rules/AppStore.yaml'
-        url: 'https://kelee.one/Tool/Clash/Rule/AppStore.yaml'
+        path: './rules/Apple.yaml'
+        url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/Apple.yaml'
 
     Microsoft:
         <<: *RuleProviders
@@ -277,11 +256,7 @@ rules:
     - RULE-SET, InternationalDownloadCDN, 境外下载
     - RULE-SET, AI, AI
     - RULE-SET, Netflix, Netflix
-    - RULE-SET, iCloudChina, DIRECT
-    - RULE-SET, ApplePushNotificationService, DIRECT
-    - RULE-SET, AppleSoftwareUpdates, DIRECT
-    - RULE-SET, AppleID, Apple账户
-    - RULE-SET, AppStore, App Store
+    - RULE-SET, Apple, Apple
     - RULE-SET, Microsoft, AI
     - DOMAIN,dns.google,Google # 确保Google DNS走代理
     - GEOIP,CN,DIRECT
