@@ -241,9 +241,16 @@ rule-providers:
         path: './rules/Telegram.yaml'
         url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/Telegram.yaml'
 
+    guanggaolianmeng:
+        <<: *RuleProviders
+        path: './rules/guanggaolianmeng.yaml'
+        url: 'https://raw.githubusercontent.com/Szo1MZ/Clash/refs/heads/main/guanggaolianmeng.yaml'
+        
+
 # 规则指向（保持不变）
 rules:
     - RULE-SET,adrules,REJECT
+    - RULE-SET,guanggaolianmeng,REJECT
     - RULE-SET, LAN, DIRECT
     - RULE-SET, Direct, DIRECT
     - RULE-SET, Game, 游戏选择
