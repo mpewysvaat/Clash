@@ -4,7 +4,6 @@ payload:
   - DOMAIN,api.snapkit.com
   - DOMAIN,cocacola.co.jp
   - DOMAIN,api.snapkit.com
-  - DOMAIN,cocacola.co.jp
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN,courses.snapsolve.com
   - DOMAIN,engagements.appsflyer.com
