@@ -3,14 +3,13 @@ payload:
   - DOMAIN,pitaya.bytedance.com
   - DOMAIN,api.snapkit.com
   - DOMAIN,cocacola.co.jp
-  - DOMAIN,api.snapkit.com
-  - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN,courses.snapsolve.com
   - DOMAIN,engagements.appsflyer.com
   - DOMAIN,lf16-campaign.ttlstatic.com
   - DOMAIN,lf16-csp.oecstatic.com
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,lf16-scmcdn.oecstatic.com
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN,lf19-csp.oecstatic.com
   - DOMAIN,lf19-pkgcdn.pitaya-clientai.com
   - DOMAIN,lf19-scmcdn.oecstatic.com
@@ -37,6 +36,7 @@ payload:
   - DOMAIN,pull-rtmp-l1-mus.pstatp.com
   - DOMAIN,pull-rtmp-l6-hs.pstatp.com
   - DOMAIN,roovza-launches.appsflyersdk.com
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,bytedapm.com
@@ -61,6 +61,7 @@ payload:
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,sgpstatp.com
   - DOMAIN-SUFFIX,sgsnssdk.com
+  - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-SUFFIX,tiktok-usts.net
   - DOMAIN-SUFFIX,tiktok.com
@@ -91,37 +92,13 @@ payload:
   - DOMAIN-SUFFIX,ttoverseaus.net
   - DOMAIN-SUFFIX,ttwstatic.com
   - DOMAIN-SUFFIX,tzvbfs.com
-  - DOMAIN-KEYWORD,bytedance.map.
-  - DOMAIN-KEYWORD,musical.ly.
-  - DOMAIN-KEYWORD,tiktokcdn-
-  - DOMAIN-KEYWORD,tiktokcdn.com.
-  - DOMAIN-KEYWORD,tiktokv.com.
-  - DOMAIN-KEYWORD,ttcdn-tos.
-  - DOMAIN-KEYWORD,ttlivecdn.com.
-  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-  - DOMAIN,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN-SUFFIX,bytedapm.com
-  - DOMAIN-SUFFIX,bytegecko-i18n.com
-  - DOMAIN-SUFFIX,byteoversea.com
-  - DOMAIN-SUFFIX,capcut.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,ibyteimg.com
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,tiktokd.net
-  - DOMAIN-SUFFIX,tiktokd.org
-  - DOMAIN-SUFFIX,tiktokmusic.app
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-SUFFIX,tiktokv.us
   - DOMAIN-SUFFIX,ttwebview.com
+  - DOMAIN-KEYWORD,bytedance.map
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn-
+  - DOMAIN-KEYWORD,tiktokcdn.com
+  - DOMAIN-KEYWORD,tiktokv.com
+  - DOMAIN-KEYWORD,ttcdn-tos
+  - DOMAIN-KEYWORD,ttlivecdn.com
   - PROCESS-NAME,com.zhiliaoapp.musically
