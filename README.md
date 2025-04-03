@@ -1,4 +1,4 @@
-Google（含google，YouTube，YouTube music,Gemini)--2025.2.16
+Google（含google YouTube YouTubeMusic Gemini)--2025.2.16
 
 Ai 含OpenAi Copilot(Microsoft) Claude JetBrainsAI Perplexity MistralAI 
 
