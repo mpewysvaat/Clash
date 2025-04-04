@@ -1,5 +1,5 @@
 payload:
-  #cod
+  #Call of Duty
   - IP-CIDR,3.0.0.0/4
   - IP-CIDR,3.1.250.122/32
   - IP-CIDR,3.24.157.0/24
