@@ -1,5 +1,39 @@
 payload:
-# ChatGPT
+  #X 2024.07.03版 
+  - DOMAIN-SUFFIX,ads-twitter.com
+  - DOMAIN-SUFFIX,cms-twdigitalassets.com
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,tellapart.com
+  - DOMAIN-SUFFIX,tweetdeck.com
+  - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twimg.org
+  - DOMAIN-SUFFIX,twitpic.com
+  - DOMAIN-SUFFIX,twitter.biz
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,twitter.jp
+  - DOMAIN-SUFFIX,twittercommunity.com
+  - DOMAIN-SUFFIX,twitterflightschool.com
+  - DOMAIN-SUFFIX,twitterinc.com
+  - DOMAIN-SUFFIX,twitteroauth.com
+  - DOMAIN-SUFFIX,twitterstat.us
+  - DOMAIN-SUFFIX,twtrdns.net
+  - DOMAIN-SUFFIX,twttr.com
+  - DOMAIN-SUFFIX,twttr.net
+  - DOMAIN-SUFFIX,twvid.com
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-KEYWORD,twitter
+  - IP-CIDR,192.133.76.0/22
+  - IP-CIDR,199.59.148.0/22
+  - IP-CIDR,199.96.56.0/21
+  - IP-CIDR,202.160.128.0/22
+  - IP-CIDR,209.237.192.0/19
+  - IP-CIDR,69.195.160.0/19
+
+  #OpenAi
   - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
   - AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
   - DOMAIN,o33249.ingest.sentry.io
@@ -13,7 +47,7 @@ payload:
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
-  # 规则补充，来源ios_rule_script，规则更新2024-07-03版
+  # 补充，来源ios_rule_script,2024-07-03版
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,gemini.google.com
   - DOMAIN,openai-api.arkoselabs.com
@@ -51,7 +85,7 @@ payload:
   # Copilot
   - DOMAIN,api.githubcopilot.com
   - DOMAIN,copilot-proxy.githubusercontent.com
-  # 以下规则来自ios_rule_script，2024-07-03版
+  # 规则来自ios_rule_script，2024-07-03版
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
   - DOMAIN,assets.msn.com
