@@ -85,5 +85,3 @@ payload:
   - DOMAIN,store.cloudflare.steamstatic.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN,video.cloudflare.steamstatic.com
-  #动视
-  - DOMAIN,ingest.datax.activision.com
