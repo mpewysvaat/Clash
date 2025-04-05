@@ -2374,4 +2374,4 @@ payload:
   - IP-CIDR,223.255.227.0/24
   - DOMAIN,ingest.datax.activision.com
   - DOMAIN,uds-zpln-ps5.np.rds.s0.playstation.net
-  - DOMAIN,uds-zpln-ps5.np.rds.s0.playstation.net
+  
