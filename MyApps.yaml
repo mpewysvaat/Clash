@@ -650,6 +650,7 @@ payload:
   - DOMAIN-SUFFIX,thegithubshop.com
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,github.com
 
   # NAME: Discord  2024-12-18
   - DOMAIN-SUFFIX,airhorn.solutions
