@@ -649,7 +649,7 @@ payload:
   - DOMAIN-SUFFIX,repo.new
   - DOMAIN-SUFFIX,thegithubshop.com
   - DOMAIN-KEYWORD,github
-  - DOMAIN-KEYWORD,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,raw.githubusercontent.com
 
   # NAME: Discord  2024-12-18
   - DOMAIN-SUFFIX,airhorn.solutions
