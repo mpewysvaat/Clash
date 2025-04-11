@@ -12,3 +12,4 @@ payload:
   - PROCESS-NAME,uTorrent
   - DOMAIN-SUFFIX,steamserver.net # 用于判断用户所在地区分配下载CDN的地址
   - AND,((GEOIP,CN),(DOMAIN,pitaya.bytedance.com)) # 此为抖音和TikTok共用域名，仅国外解析结果走代理
+  - DOMAIN-SUFFIX,v9-re1.douyinvod.com #Geoip补充  抖音
