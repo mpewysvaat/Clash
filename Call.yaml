@@ -1,0 +1,79 @@
+payload:
+  ## Call of Duty 规则（PC & PlayStation）
+  - DOMAIN-SUFFIX,cod-assets.cdn.callofduty.com
+  - DOMAIN-SUFFIX,profile.callofduty.com
+  - DOMAIN-SUFFIX,my.callofduty.com
+  - DOMAIN-SUFFIX,callofduty.com
+  - DOMAIN-SUFFIX,analytics.callofduty.com
+  - DOMAIN-SUFFIX,stats.callofduty.com
+
+  - DOMAIN-SUFFIX,activision.com
+  - DOMAIN-SUFFIX,auth.activision.com
+  - DOMAIN-SUFFIX,api.activision.com
+  - DOMAIN-SUFFIX,cdn.activision.com
+  - DOMAIN-SUFFIX,blz-contentstack.com
+
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,akamaitechnologies.com
+  - DOMAIN-SUFFIX,edgecastcdn.net
+  - DOMAIN-SUFFIX,cdp.cloud.unity3d.com
+
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,blzstatic.cn
+  - DOMAIN-SUFFIX,cloudflareinsights.com
+
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,voice.cod.com
+
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,psnprofiles.com
+  - DOMAIN-SUFFIX,pscdn.co
+
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xbox.com
+
+  - DOMAIN-KEYWORD,callofduty
+  - DOMAIN-KEYWORD,activision
+  ## Grand Theft Auto V 规则（PC & PlayStation
+  - DOMAIN-SUFFIX,rockstargames.com
+  - DOMAIN-SUFFIX,socialclub.rockstargames.com
+  - DOMAIN-SUFFIX,prod.ros.rockstargames.com
+  - DOMAIN-SUFFIX,patches.rockstargames.com
+  - DOMAIN-SUFFIX,media.rockstargames.com
+  - DOMAIN-SUFFIX,t.rockstargames.com
+
+  - DOMAIN-SUFFIX,ros.rockstargames.com
+  - DOMAIN-SUFFIX,launcher.rockstargames.com
+  - DOMAIN-SUFFIX,update.rockstargames.com
+  - DOMAIN-SUFFIX,gamedownloads.rockstargames.com
+
+  - DOMAIN-SUFFIX,auth.api.rockstargames.com
+  - DOMAIN-SUFFIX,my.rockstargames.com
+  - DOMAIN-SUFFIX,accounts.rockstargames.com
+  - DOMAIN-SUFFIX,status.rockstargames.com
+
+  - DOMAIN-SUFFIX,gta5online.rockstargames.com
+  - DOMAIN-SUFFIX,gtaonline.rockstargames.com
+  - DOMAIN-SUFFIX,v.voice.rockstargames.com
+  - DOMAIN-SUFFIX,prod.telemetry.rockstargames.com
+
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,valve.net
+
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames-download1.akamaized.net
+
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,pscdn.co
+
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xbox.com
+
+  - DOMAIN-KEYWORD,rockstar
+  - DOMAIN-KEYWORD,gta5
+  - DOMAIN-KEYWORD,gtaonline
