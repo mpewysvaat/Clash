@@ -561,6 +561,7 @@ payload:
   - DOMAIN-KEYWORD,steamuserimages
   #补充
   - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,callofduty.com
   #补充结束
   - IP-CIDR,182.162.135.1/32
   - IP-CIDR,210.242.235.6/32
