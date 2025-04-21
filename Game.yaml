@@ -2,11 +2,6 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-04-18 02:12:00
-# DOMAIN: 8
-# DOMAIN-KEYWORD: 4
-# DOMAIN-SUFFIX: 539
-# IP-CIDR: 46
-# TOTAL: 597
 payload:
   - DOMAIN,eaasserts-a.akamaihd.net
   - DOMAIN,originasserts.akamaized.net
