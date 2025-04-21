@@ -1,0 +1,25 @@
+payload:
+  ##Call of Duty 系列
+  - DOMAIN-SUFFIX,callofduty.com
+  - DOMAIN-SUFFIX,codstats.net
+  - DOMAIN-SUFFIX,activision.com
+  - DOMAIN-SUFFIX,blz-contentstack.com
+  - DOMAIN-SUFFIX,blzgdapipro-a.akamaihd.net
+  - DOMAIN-SUFFIX,callofdutycdn.com
+  - DOMAIN-KEYWORD,callofduty
+  - DOMAIN-KEYWORD,warzone
+  ##Forza 系列
+  - DOMAIN-SUFFIX,playground-games.com
+  - DOMAIN-SUFFIX,forzamotorsport.net
+  - DOMAIN-SUFFIX,forza.net
+  - DOMAIN-SUFFIX,forzahorizon.net
+  - DOMAIN-KEYWORD,forza
+  - DOMAIN,assets1.xboxlive.com
+  - DOMAIN,prod.xalapi.xboxlive.com
+  ## GTA5 / Rockstar
+  - DOMAIN-SUFFIX,rockstargames.com
+  - DOMAIN-SUFFIX,rsocialclub.com
+  - DOMAIN-SUFFIX,socialclub.rockstargames.com
+  - DOMAIN-SUFFIX,gamedownloads.rockstargames.com
+  - DOMAIN-KEYWORD,rockstar
+  - DOMAIN-KEYWORD,socialclub
