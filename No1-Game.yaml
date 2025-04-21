@@ -3,3 +3,5 @@ payload:
 #GT7
   - DOMAIN-SUFFIX,gran-turismo.com
   - DOMAIN,api.gt7.game.gran-turismo.com
+  #Fall Guys
+  - DOMAIN-KEYWORD,fallguys
