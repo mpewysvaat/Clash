@@ -148,11 +148,9 @@ payload:
   - IP-CIDR,143.204.0.0/16
   - IP-CIDR,185.60.84.0/22
   #Fall Guys
-  - DOMAIN-SUFFIX,fallguys.com
   - DOMAIN-SUFFIX,epicgames.com
   - DOMAIN-SUFFIX,unrealengine.com
   - DOMAIN-SUFFIX,aws.amazon.com
-  - DOMAIN-SUFFIX,fallguys.oncatapult.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,multiplay.com
   - IP-CIDR,3.162.125.0/24
