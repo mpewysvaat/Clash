@@ -163,6 +163,8 @@ payload:
   - DOMAIN-SUFFIX,ubisoftgroup.com
   - DOMAIN-SUFFIX,ubisoft-press.com
   - DOMAIN-SUFFIX,ubisoftpress.com
+  - DOMAIN-SUFFIX,thecrew-game-servers.com
+  - DOMAIN-SUFFIX,amazonaws.com
   - IP-CIDR,13.104.0.0/14
   - IP-CIDR,13.224.0.0/14
   - IP-CIDR,52.84.0.0/15
