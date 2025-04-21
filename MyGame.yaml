@@ -111,6 +111,11 @@ payload:
   - IP-CIDR,162.159.128.0/17
   - IP-CIDR,104.244.40.0/21
   - IP-CIDR,52.139.0.0/16,no-resolve
+  #荒野大镖客2
+  - DOMAIN-SUFFIX,feed-rdr2-prod.ros.rockstargames.com
+  - IP-CIDR,104.255.104.0/22
+  - IP-CIDR,178.79.227.0/24
+
   #跑车浪漫旅（Gran Turismo）
   - DOMAIN-SUFFIX,playstation.net
   - DOMAIN-SUFFIX,playstation.com
