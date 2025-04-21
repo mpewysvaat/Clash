@@ -1,0 +1,5 @@
+#游戏规则优先集
+payload:
+#GT7
+  - DOMAIN-SUFFIX,gran-turismo.com
+  - DOMAIN,api.gt7.game.gran-turismo.com
