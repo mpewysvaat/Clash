@@ -129,6 +129,24 @@ payload:
   - IP-CIDR,185.34.104.0/22
   - IP-CIDR,185.34.107.0/24
   - IP-CIDR,192.16.48.0/20
+  # Roblox 平台
+  - DOMAIN-SUFFIX,roblox.com
+  - DOMAIN-SUFFIX,rbxcdn.com
+  - DOMAIN-SUFFIX,robloxapi.com
+  - DOMAIN-SUFFIX,roblox.plus
+  - DOMAIN-SUFFIX,roblox.cn
+  - DOMAIN-KEYWORD,roblox
+  - DOMAIN-KEYWORD,rbx
+# Roblox CDN / 数据中心常用 IP（Cloudflare / Fastly）
+  - IP-CIDR,128.116.0.0/16
+  - IP-CIDR,128.116.0.0/14
+  - IP-CIDR,128.116.0.0/12
+  - IP-CIDR,128.116.0.0/13
+  - IP-CIDR,185.178.0.0/22
+  - IP-CIDR,23.202.0.0/15
+  - IP-CIDR,104.16.0.0/12
+  - IP-CIDR,143.204.0.0/16
+  - IP-CIDR,185.60.84.0/22
   #Fall Guys
   - DOMAIN-SUFFIX,fallguys.com
   - DOMAIN-SUFFIX,epicgames.com
