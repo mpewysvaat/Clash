@@ -31,7 +31,7 @@ payload:
   - DOMAIN-SUFFIX,akamaized-staging.net
   - DOMAIN-SUFFIX,battlecdn.com
   - DOMAIN-KEYWORD,warzone2
-
+  - DOMAIN-SUFFIX,demonware.net
   # Call of Duty / Blizzard 相关 IP 地址范围（Akamai、Cloudflare 等）
   - IP-CIDR,23.0.0.0/12
   - IP-CIDR,104.16.0.0/12
@@ -102,7 +102,7 @@ payload:
   - DOMAIN-SUFFIX,gtavicecity.ru
   - DOMAIN-KEYWORD,gtav
   - DOMAIN-SUFFIX,gtav.net
-
+  - DOMAIN-SUFFIX,andnsqd.com
   # Rockstar 相关 IP 地址范围（Cloudflare、Fastly 等）
   - IP-CIDR,192.81.240.0/20
   - IP-CIDR,185.56.64.0/22
@@ -110,7 +110,45 @@ payload:
   - IP-CIDR,151.101.0.0/16
   - IP-CIDR,162.159.128.0/17
   - IP-CIDR,104.244.40.0/21
-
+  - IP-CIDR,52.139.0.0/16,no-resolve
+  #跑车浪漫旅（Gran Turismo）
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,psnprofiles.com
+  - DOMAIN-SUFFIX,psapp.cloud
+  - DOMAIN-SUFFIX,gt7.game.gran-turismo.com
+  - IP-CIDR,185.34.104.0/22
+  - IP-CIDR,185.34.107.0/24
+  - IP-CIDR,192.16.48.0/20
+  #Fall Guys
+  - DOMAIN-SUFFIX,fallguys.com
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,aws.amazon.com
+  - IP-CIDR,3.162.125.0/24
+  - IP-CIDR,52.94.0.0/15
+  - IP-CIDR,52.92.0.0/14
+  #飙酷车神:动力盛典
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,ubi.com
+  - DOMAIN-SUFFIX,ubisoftconnect.com
+  - DOMAIN-SUFFIX,ubisoftgroup.com
+  - DOMAIN-SUFFIX,ubisoft-press.com
+  - DOMAIN-SUFFIX,ubisoftpress.com
+  - IP-CIDR,13.104.0.0/14
+  - IP-CIDR,13.224.0.0/14
+  - IP-CIDR,52.84.0.0/15
+  #人类一败涂地（Human: Fall Flat）
+  - DOMAIN-SUFFIX,nobrakesgames.com
+  - DOMAIN-SUFFIX,curve-digital.com
+  - DOMAIN-SUFFIX,humanfallflat.com
+  - IP-CIDR,104.21.0.0/16
+  - IP-CIDR,172.67.0.0/16
+  - IP-CIDR,185.199.108.0/22
   #通用CDN
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,fastly.net
