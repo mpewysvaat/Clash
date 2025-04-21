@@ -1,5 +1,5 @@
 payload:
-  ##Call of Duty 系列
+  # Call of Duty 系列
   - DOMAIN-SUFFIX,callofduty.com
   - DOMAIN-SUFFIX,codstats.net
   - DOMAIN-SUFFIX,activision.com
@@ -8,7 +8,32 @@ payload:
   - DOMAIN-SUFFIX,callofdutycdn.com
   - DOMAIN-KEYWORD,callofduty
   - DOMAIN-KEYWORD,warzone
-  ##Forza 系列
+  - DOMAIN-SUFFIX,activisionblizzard.com
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,us.battle.net
+  - DOMAIN-SUFFIX,eu.battle.net
+  - DOMAIN-SUFFIX,kr.battle.net
+  - DOMAIN-SUFFIX,cn.battle.net
+  - DOMAIN-SUFFIX,blizzardgames.cn
+  - DOMAIN-SUFFIX,blizzard.net
+  - DOMAIN-KEYWORD,blizzard
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,edgecastcdn.net
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,treyarch.com
+  - DOMAIN-SUFFIX,infinityward.com
+  - DOMAIN-SUFFIX,sledgehammergames.com
+  - DOMAIN-KEYWORD,cod
+  # Call of Duty / Blizzard 相关 IP 地址范围（Akamai、Cloudflare 等）
+  - IP-CIDR,23.0.0.0/12
+  - IP-CIDR,104.16.0.0/12
+  - IP-CIDR,184.24.0.0/13
+  - IP-CIDR,172.64.0.0/13
+  - IP-CIDR,141.101.64.0/18
+  - IP-CIDR,137.221.64.0/18
+  # Forza 系列
   - DOMAIN-SUFFIX,playground-games.com
   - DOMAIN-SUFFIX,forzamotorsport.net
   - DOMAIN-SUFFIX,forza.net
@@ -16,10 +41,51 @@ payload:
   - DOMAIN-KEYWORD,forza
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,prod.xalapi.xboxlive.com
-  ## GTA5 / Rockstar
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,turn10studios.com
+  - DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,xboxcloudgaming.com
+  - DOMAIN-KEYWORD,xbox
+  - DOMAIN-KEYWORD,xbl
+  - DOMAIN-SUFFIX,xboxlive.net
+  - DOMAIN-SUFFIX,xboxservices.net
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msedge.net
+  # Forza / Xbox Live 相关 IP 地址范围（Microsoft Azure 等）
+  - IP-CIDR,13.64.0.0/11
+  - IP-CIDR,20.33.0.0/16
+  - IP-CIDR,40.64.0.0/10
+  - IP-CIDR,52.160.0.0/11
+  - IP-CIDR,104.208.0.0/13
+  - IP-CIDR,191.232.0.0/13
+  # GTA5 / Rockstar
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,rsocialclub.com
   - DOMAIN-SUFFIX,socialclub.rockstargames.com
   - DOMAIN-SUFFIX,gamedownloads.rockstargames.com
   - DOMAIN-KEYWORD,rockstar
   - DOMAIN-KEYWORD,socialclub
+  - DOMAIN-SUFFIX,rockstarnorth.com
+  - DOMAIN-SUFFIX,rockstarcloud.com
+  - DOMAIN-SUFFIX,rockstargamescloud.com
+  - DOMAIN-SUFFIX,prod.ros.rockstargames.com
+  - DOMAIN-SUFFIX,media.rockstargames.com
+  - DOMAIN-SUFFIX,support.rockstargames.com
+  - DOMAIN-SUFFIX,store.rockstargames.com
+  - DOMAIN-SUFFIX,launcher.rockstargames.com
+  - DOMAIN-SUFFIX,cloud.rockstargames.com
+  - DOMAIN-SUFFIX,rockstargames.net
+  - DOMAIN-SUFFIX,rsg.sc
+  - DOMAIN-SUFFIX,prod.cloud.rockstargames.com
+  - DOMAIN-KEYWORD,gta
+  # Rockstar 相关 IP 地址范围（Cloudflare、Fastly 等）
+  - IP-CIDR,192.81.240.0/20
+  - IP-CIDR,185.56.64.0/22
+  - IP-CIDR,104.16.0.0/12
+  - IP-CIDR,151.101.0.0/16
+  - IP-CIDR,162.159.128.0/17
+  - IP-CIDR,104.244.40.0/21
