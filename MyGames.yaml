@@ -179,5 +179,5 @@ payload:
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,fastly.net
   - DOMAIN-SUFFIX,steamcontent.com
-  #通用规则，作用不详，遇强则强，疑似与登陆相关
-  - DOMAIN-SUFFIX,andnsqd.com
+  #通用规则，作用不详，遇强则强，微软云服务
+  - DOMAIN,blog.andnsqd.com
