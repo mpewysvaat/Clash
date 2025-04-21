@@ -2372,6 +2372,7 @@ payload:
   - IP-CIDR,223.119.230.0/24
   - IP-CIDR,223.119.248.0/24
   - IP-CIDR,223.255.227.0/24
-  - DOMAIN,ingest.datax.activision.com
-  - DOMAIN,uds-zpln-ps5.np.rds.s0.playstation.net
-  - DOMAIN,pushcl.np.communication.playstation.net
+  #补充
+  - DOMAIN-SUFFIX,activision.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,callofduty.com
