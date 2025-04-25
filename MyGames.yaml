@@ -79,7 +79,7 @@ payload:
   - IP-CIDR,131.253.0.0/16
   - IP-CIDR,157.56.0.0/14
   - IP-CIDR,204.79.197.0/24
-  - IP-CIDR,4.197.172.136/32,no-resolve
+  - IP-CIDR,4.197.172.136/30,no-resolve
 
 
   # GTA5 / Rockstar
