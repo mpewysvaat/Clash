@@ -8,3 +8,4 @@ payload:
 #Forza Horizon 5
   - DOMAIN-SUFFIX,forzamotorsport.net
   - DOMAIN-SUFFIX,clubhub.xboxlive.com
+  - DOMAIN,mpsqosprod.australiaeast.cloudapp.azure.com
