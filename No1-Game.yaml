@@ -5,3 +5,6 @@ payload:
   - DOMAIN,api.gt7.game.gran-turismo.com
   #Fall Guys
   - DOMAIN-KEYWORD,fallguys
+#Forza Horizon 5
+  - DOMAIN-SUFFIX,forzamotorsport.net
+  - DOMAIN-SUFFIX,clubhub.xboxlive.com
