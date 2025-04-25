@@ -49,6 +49,8 @@ payload:
   - DOMAIN-KEYWORD,forza
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,prod.xalapi.xboxlive.com
+  - DOMAIN,mpsqosprod.australiaeast.cloudapp.azure.com
+  - DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,microsoft.com
