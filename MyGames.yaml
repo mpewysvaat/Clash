@@ -80,7 +80,7 @@ payload:
   - IP-CIDR,157.56.0.0/14
   - IP-CIDR,204.79.197.0/24
   - IP-CIDR,4.197.172.136/30,no-resolve
-
+  - IP-CIDR,4.201.104.0/24
 
   # GTA5 / Rockstar
   - DOMAIN-SUFFIX,rockstargames.com
