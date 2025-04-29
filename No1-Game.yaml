@@ -8,5 +8,29 @@ payload:
 #Forza Horizon 5
   - DOMAIN-SUFFIX,forzamotorsport.net
   - DOMAIN-SUFFIX,clubhub.xboxlive.com
-  - DOMAIN,mpsqosprod.australiaeast.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.australiaeast.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.brazilsouth.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.canadacentral.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.centralindia.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.centralus.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.eastasia.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.eastus.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.eastus2.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.francecentral.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.germanywestcentral.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.japaneast.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.koreacentral.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.northeurope.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.northcentralus.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.southafricanorth.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.southcentralus.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.southeastasia.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.swedencentral.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.switzerlandnorth.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.uaenorth.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.ukwest.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.westcentralus.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.westeurope.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.westus.cloudapp.azure.com
+  - DOMAIN-SUFFIX,mpsqosprod.westus2.cloudapp.azure.com
   - DOMAIN-SUFFIX,xboxlive.com
