@@ -34,7 +34,6 @@ payload:
   - DOMAIN-SUFFIX,demonware.net
   # Call of Duty / Blizzard 相关 IP 地址范围（Akamai、Cloudflare 等）
   - IP-CIDR,23.0.0.0/12
-  - IP-CIDR,104.16.0.0/12
   - IP-CIDR,184.24.0.0/13
   - IP-CIDR,172.64.0.0/13
   - IP-CIDR,141.101.64.0/18
@@ -74,7 +73,8 @@ payload:
   - IP-CIDR,20.33.0.0/16
   - IP-CIDR,40.64.0.0/10
   - IP-CIDR,52.160.0.0/11
-  - IP-CIDR,104.208.0.0/13
+  - IP-CIDR,104.208.0.0/16
+  - IP-CIDR,104.209.0.0/16
   - IP-CIDR,191.232.0.0/13
   - IP-CIDR,131.253.0.0/16
   - IP-CIDR,157.56.0.0/14
@@ -111,11 +111,11 @@ payload:
   # Rockstar 相关 IP 地址范围（Cloudflare、Fastly 等）
   - IP-CIDR,192.81.240.0/20
   - IP-CIDR,185.56.64.0/22
-  - IP-CIDR,104.16.0.0/12
+  - IP-CIDR,104.16.0.0/16
   - IP-CIDR,151.101.0.0/16
   - IP-CIDR,162.159.128.0/17
   - IP-CIDR,104.244.40.0/21
-  - IP-CIDR,52.139.0.0/16,no-resolve
+  - IP-CIDR,52.139.0.0/16
   #荒野大镖客2
   - DOMAIN-SUFFIX,feed-rdr2-prod.ros.rockstargames.com
   - IP-CIDR,104.255.104.0/22
@@ -149,7 +149,6 @@ payload:
   - IP-CIDR,128.116.0.0/13
   - IP-CIDR,185.178.0.0/22
   - IP-CIDR,23.202.0.0/15
-  - IP-CIDR,104.16.0.0/12
   - IP-CIDR,143.204.0.0/16
   - IP-CIDR,185.60.84.0/22
   #Fall Guys
@@ -177,7 +176,7 @@ payload:
   - DOMAIN-SUFFIX,nobrakesgames.com
   - DOMAIN-SUFFIX,curve-digital.com
   - DOMAIN-SUFFIX,humanfallflat.com
-  - IP-CIDR,104.21.0.0/16
+  - IP-CIDR,104.21.0.0/24
   - IP-CIDR,172.67.0.0/16
   - IP-CIDR,185.199.108.0/22
   #通用CDN
