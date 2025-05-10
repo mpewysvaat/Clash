@@ -183,3 +183,4 @@ payload:
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,fastly.net
   - DOMAIN-SUFFIX,steamcontent.com
+  - IP-CIDR,34.209.164.0/24
