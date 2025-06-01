@@ -366,6 +366,7 @@ payload:
   - DOMAIN-SUFFIX,google.com.uy
   - DOMAIN-SUFFIX,google.com.vc
   - DOMAIN-SUFFIX,google.com.vn
+  - DOMAIN,lens.l.google.com
   - DOMAIN-SUFFIX,google.cv
   - DOMAIN-SUFFIX,google.cz
   - DOMAIN-SUFFIX,google.de
