@@ -746,3 +746,7 @@ payload:
   - DOMAIN-SUFFIX,privacysimplified.com
   - DOMAIN-SUFFIX,privatebrowsingmyths.com
   - DOMAIN-SUFFIX,spreadprivacy.com
+
+  #TRUTH
+  - DOMAIN-SUFFIX,trk.bonsa.net
+  - DOMAIN-SUFFIX,truthsocial.com
