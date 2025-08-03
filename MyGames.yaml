@@ -184,3 +184,6 @@ payload:
   - DOMAIN-SUFFIX,fastly.net
   - DOMAIN-SUFFIX,steamcontent.com
   - IP-CIDR,34.209.164.0/24
+  #GOG
+  - DOMAIN-SUFFIX,gogsupport.zendesk.com
+  
