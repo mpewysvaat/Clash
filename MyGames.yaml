@@ -186,4 +186,23 @@ payload:
   - IP-CIDR,34.209.164.0/24
   #GOG
   - DOMAIN-SUFFIX,gogsupport.zendesk.com
+  #暗黑破坏神4
+  - DOMAIN-SUFFIX,blz-contentstack.com
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN,level3.blizzard.com
+  - DOMAIN,cdn.blizzard.com
+  - IP-CIDR,137.221.0.0/16,no-resolve
+  - IP-CIDR,24.105.0.0/16,no-resolve
+  - DOMAIN-SUFFIX,blzstatic.cn
+  - DOMAIN-SUFFIX,blzstatic.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,bnet.163.com
+  - DOMAIN-SUFFIX,battlenet.com.cn
+  - DOMAIN-SUFFIX,auth.battle.net
+  - DOMAIN-SUFFIX,clientconfig.battle.net
+  - IP-CIDR,8.252.0.0/16,no-resolve
+  - IP-CIDR,52.0.0.0/8,no-resolve
+
   
