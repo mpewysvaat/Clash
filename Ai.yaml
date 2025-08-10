@@ -1,5 +1,5 @@
 payload:
-  #X 2024.07.03版 
+  #X
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,cms-twdigitalassets.com
   - DOMAIN-SUFFIX,periscope.tv
@@ -49,9 +49,11 @@ payload:
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
   # 补充，来源ios_rule_script,2024-07-03版
   - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,gemini.google.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,algolia.net
@@ -81,7 +83,7 @@ payload:
   - IP-CIDR,24.199.123.28/32
   - IP-CIDR,64.23.132.171/32
   - IP-ASN,20473
-
+  
   # Copilot
   - DOMAIN,api.githubcopilot.com
   - DOMAIN,copilot-proxy.githubusercontent.com
@@ -89,12 +91,17 @@ payload:
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
   - DOMAIN,assets.msn.com
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
   - DOMAIN,in.appcenter.ms
   - DOMAIN,location.microsoft.com
   - DOMAIN,odc.officeapps.live.com
+  - DOMAIN,openai-api.arkoselabs.com
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,r.bing.com
   - DOMAIN,self.events.data.microsoft.com
   - DOMAIN,services.bingapis.com
@@ -132,14 +139,6 @@ payload:
   - IP-CIDR,64.23.132.171/32
   - IP-ASN,14061
   - IP-ASN,20473
-
-  # Claude
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,claudeusercontent.com
-  - IP-CIDR,160.79.104.0/23,no-resolve
-  - IP-CIDR6,2607:6bc0::/48,no-resolve
-  - DOMAIN,cdn.usefathom.com
 
   # JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
