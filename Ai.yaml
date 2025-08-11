@@ -1,4 +1,16 @@
 payload:
+  #Grok
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grok.ai
+  - DOMAIN-SUFFIX,chatgrok.com
+  - DOMAIN-SUFFIX,grok.openai.com
+  - DOMAIN-KEYWORD,grok
+  - DOMAIN-SUFFIX,xai.chronosphere.io
+  - DOMAIN-KEYWORD,x.ai
+  - DOMAIN-KEYWORD,xai
+  - DOMAIN-SUFFIX,xai
+  - DOMAIN-SUFFIX,grok-
+  
   # JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
