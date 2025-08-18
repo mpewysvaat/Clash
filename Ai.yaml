@@ -38,3 +38,7 @@ payload:
   - DOMAIN,chat.mistral.ai
   - DOMAIN,console.mistral.ai
   - DOMAIN-SUFFIX,mistral.ai
+
+  #GPT支付
+  - DOMAIN-SUFFIX,revenuecat.com
+
