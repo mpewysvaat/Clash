@@ -9,7 +9,9 @@ payload:
   - DOMAIN-KEYWORD,x.ai
   - DOMAIN-KEYWORD,xai
   - DOMAIN-SUFFIX,xai
-  - DOMAIN-SUFFIX,grok-
+  - DOMAIN-SUFFIX,grok
+  - DOMAIN-SUFFIX,intercom.com
+  - DOMAIN-SUFFIX,assetsconfig.org
   
   # JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
