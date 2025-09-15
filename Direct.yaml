@@ -28,3 +28,9 @@ payload:
   - DOMAIN-SUFFIX,tualatin.club
   - DOMAIN-SUFFIX,dsadata.intel.com
   - DOMAIN-SUFFIX,qmqaq.top
+
+  #Filen
+  - DOMAIN-REGEX,filen-[0-9]+\.net$
+  - DOMAIN-SUFFIX,filen.io
+  - DOMAIN-SUFFIX,filen.net
+
