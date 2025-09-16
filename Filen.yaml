@@ -1,3 +1,4 @@
+payload:
   - DOMAIN-REGEX,filen-[0-9]+\.net$
   - DOMAIN-SUFFIX,filen.io
   - DOMAIN-SUFFIX,filen.net
