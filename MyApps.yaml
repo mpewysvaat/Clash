@@ -3,12 +3,40 @@ payload:
   - DOMAIN,kai.nl.tab.digital
   
   #bitget
-  - IP-CIDR,43.132.43.43/32
   - DOMAIN-SUFFIX,bitget.com
-  - DOMAIN-KEYWORD,bitge
   - DOMAIN-SUFFIX,bitgetapp.com
   - DOMAIN-SUFFIX,bgstatic.com
+  - DOMAIN-SUFFIX,engagelab.com
+  - DOMAIN-SUFFIX,lymryy.com
+  - DOMAIN-SUFFIX,bwb.online
+  - DOMAIN-SUFFIX,chainnear.com
+  - DOMAIN-SUFFIX, bitapi.vip
+  - DOMAIN-SUFFIX,theengagelab.com
+  - DOMAIN-SUFFIX,engageforce.net
+  - DOMAIN-SUFFIX,engage7.com
+  - DOMAIN-SUFFIX,gm816.com
+  - DOMAIN-SUFFIX,bjxnyj.com
+  - DOMAIN-SUFFIX,ddjxad.top
+  - DOMAIN-SUFFIX,turingfraud.net
+  - DOMAIN-SUFFIX,theengagelab.com
+  - DOMAIN-SUFFIX,bitkeep.vip
+  - DOMAIN-SUFFIX,zysh.xyz
+  - DOMAIN-SUFFIX,kqgmpj.cn
+  - DOMAIN-KEYWORD,bitge
+  - DOMAIN-KEYWORD,bitkeep
+  - IP-CIDR,43.132.43.43/32
   - IP-CIDR,3.169.36.56/32
   - IP-CIDR,3.169.36.63/32
   - IP-CIDR,3.169.36.59/32
   - IP-CIDR,3.169.36.36/32
+  - IP-CIDR,8.212.49.105/32
+  - IP-CIDR,159.138.87.239/32
+  - IP-CIDR,8.223.13.254/32
+  - IP-CIDR,8.212.117.80/32
+  - IP-CIDR, 8.212.49.105/32
+  - IP-CIDR,159.138.87.239/32
+  - IP-CIDR,183.87.34.6/32
+  - IP-CIDR,8.212.117.80/32
+  - IP-CIDR,8.223.3.232/32
+  - IP-CIDR,8.223.13.254/32
+  - IP-CIDR,8.223.13.45/22
