@@ -7,10 +7,11 @@ payload:
   - DOMAIN-SUFFIX,bitgetapp.com
   - DOMAIN-SUFFIX,bgstatic.com
   - DOMAIN-SUFFIX,engagelab.com
+  - DOMAIN-SUFFIX,walletconnect.org
   - DOMAIN-SUFFIX,lymryy.com
   - DOMAIN-SUFFIX,bwb.online
   - DOMAIN-SUFFIX,chainnear.com
-  - DOMAIN-SUFFIX, bitapi.vip
+  - DOMAIN-SUFFIX,bitapi.vip
   - DOMAIN-SUFFIX,theengagelab.com
   - DOMAIN-SUFFIX,engageforce.net
   - DOMAIN-SUFFIX,engage7.com
@@ -40,4 +41,5 @@ payload:
   - IP-CIDR,8.223.3.232/32
   - IP-CIDR,8.223.13.254/32
   - IP-CIDR,8.223.13.45/32
+
 
