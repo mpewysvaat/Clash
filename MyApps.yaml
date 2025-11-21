@@ -1,3 +1,14 @@
 payload:
   #tab.digital Next Cloud
   - DOMAIN,kai.nl.tab.digital
+  
+  #bitget
+  - IP-CIDR,43.132.43.43/32
+  - DOMAIN-SUFFIX,bitget.com
+  - DOMAIN-KEYWORD,bitge
+  - DOMAIN-SUFFIX,bitgetapp.com
+  - DOMAIN-SUFFIX,bgstatic.com
+  - IP-CIDR,3.169.36.56/32
+  - IP-CIDR,3.169.36.63/32
+  - IP-CIDR,3.169.36.59/32
+  - IP-CIDR,3.169.36.36/32
